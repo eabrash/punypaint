@@ -29,7 +29,23 @@
 		37572BC31DE41903006BB75F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		37572BCA1DE4191F006BB75F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		37572BCB1DE4191F006BB75F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
-		37572BCE1DE41D65006BB75F /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		37572BD01DE41F41006BB75F /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black.png; path = "../../../../../../../../Documents/paint-clone/resources/black.png"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37572BD11DE41F41006BB75F /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		37572BD21DE41F41006BB75F /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		37572BD31DE41F41006BB75F /* brush.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = brush.bmp; sourceTree = "<group>"; };
+		37572BD41DE41F41006BB75F /* brush.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brush.png; sourceTree = "<group>"; };
+		37572BD51DE41F41006BB75F /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray.png; sourceTree = "<group>"; };
+		37572BD61DE41F41006BB75F /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		37572BD71DE41F41006BB75F /* midnight_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = midnight_blue.png; sourceTree = "<group>"; };
+		37572BD81DE41F41006BB75F /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		37572BD91DE41F41006BB75F /* paintbucket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paintbucket.png; sourceTree = "<group>"; };
+		37572BDA1DE41F41006BB75F /* pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink.png; sourceTree = "<group>"; };
+		37572BDB1DE41F41006BB75F /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		37572BDC1DE41F41006BB75F /* raspberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raspberry.png; sourceTree = "<group>"; };
+		37572BDD1DE41F41006BB75F /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		37572BDE1DE41F41006BB75F /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		37572BDF1DE41F41006BB75F /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		37572BE01DE41F41006BB75F /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,7 @@
 				37572BCB1DE4191F006BB75F /* SDL2.framework */,
 				37572BC21DE41903006BB75F /* paint-clone */,
 				37572BC11DE41903006BB75F /* Products */,
-				37572BCE1DE41D65006BB75F /* resources */,
+				37572BCF1DE41F41006BB75F /* resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,31 @@
 			);
 			path = "paint-clone";
 			sourceTree = "<group>";
+		};
+		37572BCF1DE41F41006BB75F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				37572BD01DE41F41006BB75F /* black.png */,
+				37572BD11DE41F41006BB75F /* blue.png */,
+				37572BD21DE41F41006BB75F /* brown.png */,
+				37572BD31DE41F41006BB75F /* brush.bmp */,
+				37572BD41DE41F41006BB75F /* brush.png */,
+				37572BD51DE41F41006BB75F /* gray.png */,
+				37572BD61DE41F41006BB75F /* green.png */,
+				37572BD71DE41F41006BB75F /* midnight_blue.png */,
+				37572BD81DE41F41006BB75F /* orange.png */,
+				37572BD91DE41F41006BB75F /* paintbucket.png */,
+				37572BDA1DE41F41006BB75F /* pink.png */,
+				37572BDB1DE41F41006BB75F /* purple.png */,
+				37572BDC1DE41F41006BB75F /* raspberry.png */,
+				37572BDD1DE41F41006BB75F /* red.png */,
+				37572BDE1DE41F41006BB75F /* sand.png */,
+				37572BDF1DE41F41006BB75F /* white.png */,
+				37572BE01DE41F41006BB75F /* yellow.png */,
+			);
+			name = resources;
+			path = "../../../../../../../../Documents/paint-clone/resources";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXGroup section */
 

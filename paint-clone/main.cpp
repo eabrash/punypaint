@@ -68,22 +68,22 @@ void drawBackground(int *pPixels, int len)
 
 void drawTools(int *pPixelsStart, int len)
 {
-    SDL_Surface* pBrushIcon = IMG_Load("../resources/brush.png");
-    SDL_Surface* pBucketIcon = IMG_Load("../resources/paintbucket.png");
-    SDL_Surface* pRed = IMG_Load("../resources/red.png");
-    SDL_Surface* pOrange = IMG_Load("../resources/orange.png");
-    SDL_Surface* pYellow = IMG_Load("../resources/yellow.png");
-    SDL_Surface* pGreen = IMG_Load("../resources/green.png");
-    SDL_Surface* pBlue = IMG_Load("../resources/blue.png");
-    SDL_Surface* pPurple = IMG_Load("../resources/purple.png");
-    SDL_Surface* pBlack = IMG_Load("../resources/black.png");
-    SDL_Surface* pGray = IMG_Load("../resources/gray.png");
-    SDL_Surface* pWhite = IMG_Load("../resources/white.png");
-    SDL_Surface* pPink = IMG_Load("../resources/pink.png");
-    SDL_Surface* pSand = IMG_Load("../resources/sand.png");
-    SDL_Surface* pBrown = IMG_Load("../resources/brown.png");
-    SDL_Surface* pRaspberry = IMG_Load("../resources/raspberry.png");
-    SDL_Surface* pMidnightBlue = IMG_Load("../resources/midnight_blue.png");
+    SDL_Surface* pBrushIcon = IMG_Load("../../../../../../../../Documents/paint-clone/resources/brush.png");
+    SDL_Surface* pBucketIcon = IMG_Load("../../../../../../../../Documents/paint-clone/resources/paintbucket.png");
+    SDL_Surface* pRed = IMG_Load("../../../../../../../../Documents/paint-clone/resources/red.png");
+    SDL_Surface* pOrange = IMG_Load("../../../../../../../../Documents/paint-clone/resources/orange.png");
+    SDL_Surface* pYellow = IMG_Load("../../../../../../../../Documents/paint-clone/resources/yellow.png");
+    SDL_Surface* pGreen = IMG_Load("../../../../../../../../Documents/paint-clone/resources/green.png");
+    SDL_Surface* pBlue = IMG_Load("../../../../../../../../Documents/paint-clone/resources/blue.png");
+    SDL_Surface* pPurple = IMG_Load("../../../../../../../../Documents/paint-clone/resources/purple.png");
+    SDL_Surface* pBlack = IMG_Load("../../../../../../../../Documents/paint-clone/resources/black.png");
+    SDL_Surface* pGray = IMG_Load("../../../../../../../../Documents/paint-clone/resources/gray.png");
+    SDL_Surface* pWhite = IMG_Load("../../../../../../../../Documents/paint-clone/resources/white.png");
+    SDL_Surface* pPink = IMG_Load("../../../../../../../../Documents/paint-clone/resources/pink.png");
+    SDL_Surface* pSand = IMG_Load("../../../../../../../../Documents/paint-clone/resources/sand.png");
+    SDL_Surface* pBrown = IMG_Load("../../../../../../../../Documents/paint-clone/resources/brown.png");
+    SDL_Surface* pRaspberry = IMG_Load("../../../../../../../../Documents/paint-clone/resources/raspberry.png");
+    SDL_Surface* pMidnightBlue = IMG_Load("../../../../../../../../Documents/paint-clone/resources/midnight_blue.png");
     
     int *brush = (int *)pBrushIcon->pixels;
     int *bucket = (int *)pBucketIcon->pixels;
