@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		37572BC41DE41903006BB75F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37572BC31DE41903006BB75F /* main.cpp */; };
+		37572BCC1DE4191F006BB75F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37572BCA1DE4191F006BB75F /* SDL2_image.framework */; };
+		37572BCD1DE4191F006BB75F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37572BCB1DE4191F006BB75F /* SDL2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		37572BC01DE41903006BB75F /* paint-clone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "paint-clone"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37572BC31DE41903006BB75F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		37572BCA1DE4191F006BB75F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		37572BCB1DE4191F006BB75F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37572BCC1DE4191F006BB75F /* SDL2_image.framework in Frameworks */,
+				37572BCD1DE4191F006BB75F /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		37572BB71DE41902006BB75F = {
 			isa = PBXGroup;
 			children = (
+				37572BCA1DE4191F006BB75F /* SDL2_image.framework */,
+				37572BCB1DE4191F006BB75F /* SDL2.framework */,
 				37572BC21DE41903006BB75F /* paint-clone */,
 				37572BC11DE41903006BB75F /* Products */,
 			);
@@ -209,6 +217,10 @@
 		37572BC81DE41903006BB75F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +228,10 @@
 		37572BC91DE41903006BB75F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
