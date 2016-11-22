@@ -29,6 +29,7 @@
 		37572BC31DE41903006BB75F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		37572BCA1DE4191F006BB75F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		37572BCB1DE4191F006BB75F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		37572BCE1DE41D65006BB75F /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 				37572BCB1DE4191F006BB75F /* SDL2.framework */,
 				37572BC21DE41903006BB75F /* paint-clone */,
 				37572BC11DE41903006BB75F /* Products */,
+				37572BCE1DE41D65006BB75F /* resources */,
 			);
 			sourceTree = "<group>";
 		};
