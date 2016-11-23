@@ -10,16 +10,51 @@
 		37572BC41DE41903006BB75F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37572BC31DE41903006BB75F /* main.cpp */; };
 		37572BCC1DE4191F006BB75F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37572BCA1DE4191F006BB75F /* SDL2_image.framework */; };
 		37572BCD1DE4191F006BB75F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37572BCB1DE4191F006BB75F /* SDL2.framework */; };
+		37572BF21DE562FA006BB75F /* black.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD01DE41F41006BB75F /* black.png */; };
+		37572BF31DE562FA006BB75F /* blue.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD11DE41F41006BB75F /* blue.png */; };
+		37572BF41DE562FA006BB75F /* brown.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD21DE41F41006BB75F /* brown.png */; };
+		37572BF51DE562FA006BB75F /* brush.bmp in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD31DE41F41006BB75F /* brush.bmp */; };
+		37572BF61DE562FA006BB75F /* brush.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD41DE41F41006BB75F /* brush.png */; };
+		37572BF71DE562FA006BB75F /* gray.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD51DE41F41006BB75F /* gray.png */; };
+		37572BF81DE562FA006BB75F /* green.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD61DE41F41006BB75F /* green.png */; };
+		37572BF91DE562FA006BB75F /* midnight_blue.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD71DE41F41006BB75F /* midnight_blue.png */; };
+		37572BFA1DE562FA006BB75F /* orange.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD81DE41F41006BB75F /* orange.png */; };
+		37572BFB1DE562FA006BB75F /* paintbucket.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BD91DE41F41006BB75F /* paintbucket.png */; };
+		37572BFC1DE562FA006BB75F /* pink.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDA1DE41F41006BB75F /* pink.png */; };
+		37572BFD1DE562FA006BB75F /* purple.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDB1DE41F41006BB75F /* purple.png */; };
+		37572BFE1DE562FA006BB75F /* raspberry.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDC1DE41F41006BB75F /* raspberry.png */; };
+		37572BFF1DE562FA006BB75F /* red.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDD1DE41F41006BB75F /* red.png */; };
+		37572C001DE562FA006BB75F /* sand.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDE1DE41F41006BB75F /* sand.png */; };
+		37572C011DE562FA006BB75F /* white.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BDF1DE41F41006BB75F /* white.png */; };
+		37572C021DE562FA006BB75F /* yellow.png in Copy Files */ = {isa = PBXBuildFile; fileRef = 37572BE01DE41F41006BB75F /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		37572BBE1DE41903006BB75F /* CopyFiles */ = {
+		37572BBE1DE41903006BB75F /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
+				37572BF21DE562FA006BB75F /* black.png in Copy Files */,
+				37572BF31DE562FA006BB75F /* blue.png in Copy Files */,
+				37572BF41DE562FA006BB75F /* brown.png in Copy Files */,
+				37572BF51DE562FA006BB75F /* brush.bmp in Copy Files */,
+				37572BF61DE562FA006BB75F /* brush.png in Copy Files */,
+				37572BF71DE562FA006BB75F /* gray.png in Copy Files */,
+				37572BF81DE562FA006BB75F /* green.png in Copy Files */,
+				37572BF91DE562FA006BB75F /* midnight_blue.png in Copy Files */,
+				37572BFA1DE562FA006BB75F /* orange.png in Copy Files */,
+				37572BFB1DE562FA006BB75F /* paintbucket.png in Copy Files */,
+				37572BFC1DE562FA006BB75F /* pink.png in Copy Files */,
+				37572BFD1DE562FA006BB75F /* purple.png in Copy Files */,
+				37572BFE1DE562FA006BB75F /* raspberry.png in Copy Files */,
+				37572BFF1DE562FA006BB75F /* red.png in Copy Files */,
+				37572C001DE562FA006BB75F /* sand.png in Copy Files */,
+				37572C011DE562FA006BB75F /* white.png in Copy Files */,
+				37572C021DE562FA006BB75F /* yellow.png in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -122,7 +157,7 @@
 			buildPhases = (
 				37572BBC1DE41903006BB75F /* Sources */,
 				37572BBD1DE41903006BB75F /* Frameworks */,
-				37572BBE1DE41903006BB75F /* CopyFiles */,
+				37572BBE1DE41903006BB75F /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -298,6 +333,7 @@
 				37572BC91DE41903006BB75F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
